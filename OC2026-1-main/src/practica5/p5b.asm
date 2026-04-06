@@ -7,7 +7,6 @@ _start:
 	mov ebx, msg                ; 
 	add ebx, 23                 ;
 	mov byte [ebx], 'X'         ;
-	
 	mov edx, msg                ; 
 	call puts                   ;
 	
